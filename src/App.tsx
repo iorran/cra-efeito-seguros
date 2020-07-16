@@ -1,11 +1,11 @@
 import React from 'react';
-import {Provider, defaultTheme, ActionButton, Grid, View, Breadcrumbs, Item, Footer, Header, Divider, Flex, ListBox, Section, Text, TextField} from '@adobe/react-spectrum';
+import {Provider, darkTheme, ActionButton, Grid, View, Breadcrumbs, Item, Footer, Header, Divider, Flex, ListBox, Section, Text, TextField} from '@adobe/react-spectrum';
 import Book from '@spectrum-icons/workflow/Book';
 import Draw from '@spectrum-icons/workflow/Draw';
 import BulkEditUsers from '@spectrum-icons/workflow/BulkEditUsers';
 function App() {
   return (
-    <Provider theme={defaultTheme}>
+    <Provider theme={darkTheme}>
       <Grid
         areas={['header  header', 'sidebar content', 'footer  footer']}
         columns={['0.5fr', '3.5fr']}
